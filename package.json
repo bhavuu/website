@@ -10,6 +10,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "axios": "^1.6.7",
     "babel-eslint": "^8.0.1",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-styled-components": "^1.2.1",
@@ -18,8 +19,11 @@
     "lint-staged": "^4.2.3",
     "next": "^4.0.3",
     "next-routes": "^1.1.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "node-sass": "^9.0.0",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
     "standard": "^10.0.3",
     "styled-components": "^2.2.1"
   },
@@ -37,5 +41,8 @@
       "standard --fix",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
